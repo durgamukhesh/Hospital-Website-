@@ -1,0 +1,496 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Amigos Hospital</title>
+
+<link rel="stylesheet" href="style.css">
+
+</head>
+
+
+<body>
+
+
+<header>
+
+<nav>
+
+<h1 class="logo">
+Amigos Hospital
+</h1>
+
+
+<div class="nav">
+
+<a href="#home">Home</a>
+
+<a href="#departments">Departments</a>
+
+<a href="#appointment">Appointment</a>
+
+<a href="#reports">Reports</a>
+
+<a href="#contact">Contact</a>
+
+</div>
+
+
+</nav>
+
+</header>
+
+
+
+
+
+<!-- HOME -->
+
+<section id="home" class="hero">
+
+
+<div>
+
+<h1>
+Advanced Healthcare With Compassion
+</h1>
+
+
+<p>
+Amigos Hospital provides world-class treatment with experienced doctors and modern technology.
+</p>
+
+
+
+<button onclick="emergency()">
+🚑 Emergency Ambulance
+</button>
+
+
+</div>
+
+
+</section>
+
+
+
+
+
+
+
+<!-- STATS -->
+
+
+<section class="stats">
+
+
+<div>
+
+<h2>50000+</h2>
+
+<p>Patients Treated</p>
+
+</div>
+
+
+
+<div>
+
+<h2>120+</h2>
+
+<p>Expert Doctors</p>
+
+</div>
+
+
+
+
+<div>
+
+<h2>15+</h2>
+
+<p>Departments</p>
+
+</div>
+
+
+
+
+<div>
+
+<h2>24/7</h2>
+
+<p>Emergency Care</p>
+
+</div>
+
+
+</section>
+
+
+
+
+
+
+
+
+<!-- REPORTS -->
+
+
+<section id="reports">
+
+
+<h2>
+Patient Report Download
+</h2>
+
+
+<input id="patientId"
+placeholder="Enter Patient ID">
+
+
+<button onclick="downloadReport()">
+
+Download Report
+
+</button>
+
+
+<p id="reportMsg"></p>
+
+
+</section>
+
+
+
+
+
+
+
+
+
+<!-- DEPARTMENTS -->
+
+
+<section id="departments">
+
+
+<h2>
+Our Medical Departments
+</h2>
+
+
+
+<div class="department-box">
+
+
+<button onclick="showDept('cardiology')">
+Cardiology
+</button>
+
+
+<button onclick="showDept('neurology')">
+Neurology
+</button>
+
+
+<button onclick="showDept('orthopedic')">
+Orthopedics
+</button>
+
+
+<button onclick="showDept('dermatology')">
+Dermatology
+</button>
+
+
+<button onclick="showDept('pediatrics')">
+Pediatrics
+</button>
+
+
+<button onclick="showDept('oncology')">
+Oncology
+</button>
+
+
+<button onclick="showDept('gynecology')">
+Gynecology
+</button>
+
+
+<button onclick="showDept('ent')">
+ENT
+</button>
+
+
+<button onclick="showDept('urology')">
+Urology
+</button>
+
+
+<button onclick="showDept('general')">
+General Medicine
+</button>
+
+
+<button onclick="showDept('dental')">
+Dental
+</button>
+
+
+<button onclick="showDept('eye')">
+Eye Care
+</button>
+
+
+<button onclick="showDept('physio')">
+Physiotherapy
+</button>
+
+
+<button onclick="showDept('emergency')">
+Emergency
+</button>
+
+
+<button onclick="showDept('surgery')">
+Surgery
+</button>
+
+
+</div>
+
+
+
+
+
+
+
+<div id="departmentInfo">
+
+
+<h2>
+Select Department
+</h2>
+
+
+<p>
+Click any department to see doctor details and patient information.
+</p>
+
+
+</div>
+
+
+
+</section>
+
+
+
+
+
+
+
+
+
+<!-- APPOINTMENT -->
+
+
+<section id="appointment">
+
+
+<h2>
+Book Appointment
+</h2>
+
+
+
+<form id="appointmentForm">
+
+
+
+<input 
+placeholder="Patient Name"
+required>
+
+
+
+
+<input 
+placeholder="Phone Number"
+required>
+
+
+
+
+
+<select required>
+
+
+<option>
+Select Department
+</option>
+
+
+<option>
+Cardiology
+</option>
+
+
+<option>
+Neurology
+</option>
+
+
+<option>
+Orthopedics
+</option>
+
+
+<option>
+Dermatology
+</option>
+
+
+<option>
+Pediatrics
+</option>
+
+
+</select>
+
+
+
+
+
+<input type="date" required>
+
+
+
+
+<h3>
+Payment Section
+</h3>
+
+
+
+
+<select>
+
+
+<option>
+UPI Payment
+</option>
+
+
+<option>
+Debit Card
+</option>
+
+
+<option>
+Credit Card
+</option>
+
+
+</select>
+
+
+
+
+<button>
+
+Confirm Appointment
+
+</button>
+
+
+
+</form>
+
+
+
+<p id="appointmentMsg"></p>
+
+
+</section>
+
+
+
+
+
+
+
+
+
+<!-- CONTACT -->
+
+
+<section id="contact">
+
+
+<h2>
+Contact Amigos Hospital
+</h2>
+
+
+
+<p>
+📞 Phone: +91 98765 43210
+</p>
+
+
+<p>
+☎ Landline: 040-23456789
+</p>
+
+
+
+<p>
+📧 Email: info@amigoshospital.com
+</p>
+
+
+
+<p>
+📍 Address: Main City Healthcare Road
+</p>
+
+
+
+</section>
+
+
+
+
+
+
+
+
+<footer>
+
+
+<p>
+© 2026 Amigos Hospital | All Rights Reserved
+</p>
+
+
+</footer>
+
+
+
+
+
+
+<script src="script.js"></script>
+
+
+</body>
+
+
+</html>
