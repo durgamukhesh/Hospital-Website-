@@ -1,10 +1,3 @@
-Hospital Management Website
-
-![HTML](https://img.shields.io/badge/HTML5-Structure-orange?logo=html5)
-![CSS](https://img.shields.io/badge/CSS3-Styling-blue?logo=css3)
-![JavaScript](https://img.shields.io/badge/JavaScript-Functionality-yellow?logo=javascript)
-![License](https://img.shields.io/badge/License-MIT-green)
-
 Project Overview
 
 The Hospital Management Website is a responsive and user-friendly web application designed to provide essential hospital information through an attractive interface. The project demonstrates modern front-end web development skills using HTML, CSS, and JavaScript.
