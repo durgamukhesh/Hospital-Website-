@@ -1,13 +1,11 @@
-# 🏥 Hospital Management Website
+Hospital Management Website
 
 ![HTML](https://img.shields.io/badge/HTML5-Structure-orange?logo=html5)
 ![CSS](https://img.shields.io/badge/CSS3-Styling-blue?logo=css3)
 ![JavaScript](https://img.shields.io/badge/JavaScript-Functionality-yellow?logo=javascript)
 ![License](https://img.shields.io/badge/License-MIT-green)
 
----
-
-# 📖 Project Overview
+Project Overview
 
 The Hospital Management Website is a responsive and user-friendly web application designed to provide essential hospital information through an attractive interface. The project demonstrates modern front-end web development skills using HTML, CSS, and JavaScript.
 
@@ -15,9 +13,8 @@ The website enables users to explore hospital services, departments, doctors, ap
 
 This project was developed as part of a Computer Science Engineering academic project and serves as a portfolio project for showcasing front-end development skills.
 
----
 
-# 🎯 Objectives
+Objectives
 
 - Build a responsive hospital website
 - Improve user experience with a modern interface
@@ -25,26 +22,22 @@ This project was developed as part of a Computer Science Engineering academic pr
 - Provide easy navigation for hospital information
 - Create a clean and professional healthcare website
 
----
+Features
 
-# ✨ Features
+ Responsive Home Page
+ Doctors Information
+ Hospital Departments
+ Online Appointment Form
+ Contact Information
+ About Hospital
+ Location Section
+ Patient Testimonials
+ Mobile Friendly Design
+ Attractive User Interface
+ Smooth Navigation
+ Easy-to-use Layout
 
-- 🏥 Responsive Home Page
-- 👨‍⚕️ Doctors Information
-- 🩺 Hospital Departments
-- 📅 Online Appointment Form
-- 📞 Contact Information
-- 🏢 About Hospital
-- 📍 Location Section
-- 💬 Patient Testimonials
-- 📱 Mobile Friendly Design
-- 🎨 Attractive User Interface
-- ⚡ Smooth Navigation
-- 🔍 Easy-to-use Layout
-
----
-
-# 🛠 Technologies Used
+ Technologies Used
 
 - HTML5
 - CSS3
@@ -81,17 +74,13 @@ Hospital-Website/
 └── README.md
 ```
 
----
-
-# 🚀 Installation
-
-### Clone Repository
+ Installation
+ Clone Repository
 
 ```bash
 git clone https://github.com/durgamukhesh/Hospital-Website-.git
 ```
-
-### Open Project
+Open Project
 
 ```bash
 cd Hospital-Website-
@@ -103,8 +92,7 @@ Open **index.html** using
 - OR Double Click index.html
 
 ---
-
-# 💻 Screens
+ Screens
 
 - Home
 - About
@@ -116,31 +104,31 @@ Open **index.html** using
 
 ---
 
-# 📋 Functionalities
+Functionalities
 
-✔ Navigation Bar
+. Navigation Bar
 
-✔ Responsive Layout
+. Responsive Layout
 
-✔ Hospital Information
+. Hospital Information
 
-✔ Doctor Profiles
+. Doctor Profiles
 
-✔ Department Details
+. Department Details
 
-✔ Appointment Booking Form
+. Appointment Booking Form
 
-✔ Contact Form
+. Contact Form
 
-✔ Footer with Social Links
+. Footer with Social Links
 
-✔ Interactive Buttons
+. Interactive Buttons
 
-✔ Mobile Responsive Design
+. Mobile Responsive Design
 
 ---
 
-# 📈 Future Enhancements
+ Future Enhancements
 
 - Patient Login System
 - Doctor Login System
@@ -155,7 +143,7 @@ Open **index.html** using
 
 ---
 
-# 🎓 Learning Outcomes
+ Learning Outcomes
 
 This project helped in learning:
 
@@ -170,7 +158,7 @@ This project helped in learning:
 
 ---
 
-# 📸 Project Preview
+Project Preview
 
 > Add screenshots of your website here.
 
@@ -185,29 +173,26 @@ images/contact.png
 
 ---
 
-# 🤝 Contributing
+Contributing
 
 Contributions, issues, and feature requests are welcome.
 
 Feel free to fork this repository and submit a pull request.
 
 ---
-
-# 👨‍💻 Author
+ Author
 
 **Ch. Durga Mukhesh**
 
 GitHub: https://github.com/durgamukhesh
 
 ---
-
-# ⭐ Support
+ Support
 
 If you found this project useful, please give it a ⭐ on GitHub.
 
 ---
-
-# 📜 License
+ License
 
 This project is licensed under the MIT License.
 
